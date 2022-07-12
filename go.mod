@@ -1,4 +1,4 @@
-module github.com/wanghao75/robot-gitlab-label
+module github.com/opensourceways/robot-github-openeuler-label
 
 go 1.15
 
