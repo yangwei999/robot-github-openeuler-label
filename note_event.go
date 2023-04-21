@@ -2,12 +2,13 @@ package main
 
 import (
 	"fmt"
+	"strings"
+
 	sdk "github.com/google/go-github/v36/github"
-	gc "github.com/opensourceways/community-robot-lib/githubclient"
-	"github.com/opensourceways/community-robot-lib/utils"
+	gc "github.com/opensourceways/robot-github-lib/client"
+	"github.com/opensourceways/server-common-lib/utils"
 	"github.com/sirupsen/logrus"
 	"k8s.io/apimachinery/pkg/util/sets"
-	"strings"
 )
 
 func (bot *robot) handleLabels(

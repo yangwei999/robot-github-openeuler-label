@@ -2,7 +2,7 @@ package main
 
 import (
 	sdk "github.com/google/go-github/v36/github"
-	gc "github.com/opensourceways/community-robot-lib/githubclient"
+	gc "github.com/opensourceways/robot-github-lib/client"
 	"k8s.io/apimachinery/pkg/util/sets"
 )
 

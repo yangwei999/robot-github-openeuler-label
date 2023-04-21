@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	gc "github.com/opensourceways/community-robot-lib/githubclient"
 	"strings"
 
-	"github.com/opensourceways/community-robot-lib/utils"
+	gc "github.com/opensourceways/robot-github-lib/client"
+	"github.com/opensourceways/server-common-lib/utils"
 	"k8s.io/apimachinery/pkg/util/sets"
 )
 
